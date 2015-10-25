@@ -20,14 +20,8 @@
       Ctrl+\或ctrl+@或ctrl+@ ctrl+@ 再按 s 表示：cs find s命令  
 * tab
 
-| Tables| Are | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
 
-|命令|	说明|
-| ------ |:-------:|-----:|
+|命令:|	说明:|
 |vim -p <files>	|打开多个文件，并将它们放在标签中|
 |:tabe[dit] <file>	|在当前标签页之后新建一个标签页，在其中放置file的内容|
 |:tabnew <file>	|新建一个文件file，并为它新建一个标签页
