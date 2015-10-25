@@ -18,7 +18,29 @@
     cs find i ---- 查找包含本文件的文   
     所有命令也可以且按銉来实现：   
       Ctrl+\或ctrl+@或ctrl+@ ctrl+@ 再按 s 表示：cs find s命令  
-* adfa  
+* tab
 
+| Tables| Are | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
-
+|命令|	说明|
+| ------ |:-------:|-----:|
+|vim -p <files>	|打开多个文件，并将它们放在标签中|
+|:tabe[dit] <file>	|在当前标签页之后新建一个标签页，在其中放置file的内容|
+|:tabnew <file>	|新建一个文件file，并为它新建一个标签页
+|:tabo[only]	|关闭其他标签页
+|:tabc[lose]|
+|:q	|关闭当前标签页
+|gt	|打开下一个标签页
+|gT	|......上一个.........
+|:tabfir[st]|
+|:tabr[ewind]	|打开第一个标签页
+|:tabl[ast]	|打开最后一个标签页
+|:tabm[ove] <N>
+|:tabm[ove] +<N>
+|:tabm[ove] -<N>	|移动标签页：移到到位置N，往右移N个位置，往左移N个位置
+|:tabs	|显示当前标签页
+|:help tab-page-intro	|查询标签页相关命令
