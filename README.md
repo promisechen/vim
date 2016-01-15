@@ -1,4 +1,19 @@
 # vim
+* 安装部署
+1. 设置.vimrc
+2. 安装vundle插件管理工具
+参考”http://www.cnblogs.com/zzqcn/p/4660615.html 2. 插件管理器“
+3. 安装Doxygen
+参考”http://www.cnblogs.com/zzqcn/p/4660615.html 4. Doxygen注释自动生成“
+4. 安装YouCompleteMe
+   . 在.vimrc中添加Plugin 'Valloric/YouCompleteMe'，并运行:PluginInstall命令安装
+   . yum install cmake
+   . 安装clang
+      . 下载LLVM source code、Clang source code、Compiler RT source code、Clang tools Extra
+5. 安装tlist
+            下载taglist.vim：https://github.com/promisechen/vim/plugin/taglist.vim
+                  将他放到~/.vim/plugin/下面
+
 * ycm 
     YCM相关快捷键，分别是\gl, \gf, \gg  
     3个快捷键设置是用来快速跳转到符号声明或定义的。我往往只用gg，即将光标定位到某个符号上，  
