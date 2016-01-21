@@ -1,5 +1,5 @@
 # vim
-* 安装部署
+## 安装部署
 1. 设置.vimrc
 2. 安装vundle插件管理工具
 参考”http://www.cnblogs.com/zzqcn/p/4660615.html 2. 插件管理器“
@@ -14,12 +14,14 @@
             下载taglist.vim：https://github.com/promisechen/vim/plugin/taglist.vim
                   将他放到~/.vim/plugin/下面
 
-* ycm 
+## 常用命令
+*  ycm 
     YCM相关快捷键，分别是\gl, \gf, \gg  
     3个快捷键设置是用来快速跳转到符号声明或定义的。我往往只用gg，即将光标定位到某个符号上，  
     按\键后（默认的leader键是\），快速按两次g键，将跳转到该符号的声明或定义位置（Tips: 按<ctrl>+o返回）  
     ctrl+p上翻，ctrl+n下翻  
     ctrl+ww 切换  
+
 * cscope
     cscope -Rbkq  
     Ctrl+]将跳到光标所在变量或函数的定义处 Ctrl+T返回   
@@ -33,8 +35,8 @@
     cs find i ---- 查找包含本文件的文   
     所有命令也可以且按銉来实现：   
       Ctrl+\或ctrl+@或ctrl+@ ctrl+@ 再按 s 表示：cs find s命令  
-* tab
 
+* tab
 
 |命令|	说明|
 |:--|:--|
@@ -54,3 +56,5 @@
 |:tabm[ove] -<N>	|移动标签页：移到到位置N，往右移N个位置，往左移N个位置
 |:tabs	|显示当前标签页
 |:help tab-page-intro	|查询标签页相关命令
+* crt找色问题
+   http://blog.csdn.net/wfdtxz/article/details/7354566
