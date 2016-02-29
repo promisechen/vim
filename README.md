@@ -16,6 +16,15 @@
 
 ## 常用命令
 *  ycm 
+    automatic extend .ycm_extra_conf.py by project
+    usage:
+    1.sudo cp ./ycmadd.py to /usr/local/sbin/
+    2.sudo chmod a+rwx /usr/local/sbin/ycmadd.py
+
+    $ cd project_path
+    $ ycmadd.py
+
+    now you will have a .ycm_extra_conf for your project which include project src dir
     YCM相关快捷键，分别是\gl, \gf, \gg  
     3个快捷键设置是用来快速跳转到符号声明或定义的。我往往只用gg，即将光标定位到某个符号上，  
     按\键后（默认的leader键是\），快速按两次g键，将跳转到该符号的声明或定义位置（Tips: 按<ctrl>+o返回）  
